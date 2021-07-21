@@ -1,0 +1,99 @@
+body
+{
+    background: url(../img/walking2.jpg) no-repeat center center fixed;
+    background-size: auto;
+    width: 100%;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 1px 1px darkslategray;
+    font-size: larger;
+}
+a:hover
+{
+    color: white;
+    text-decoration: none;
+    text-shadow: none;
+}
+table
+{
+    width: 100%;
+}
+table, th, td 
+{
+    border: 1px solid black;
+    padding: 3px;
+}
+#input
+{
+    width: 80px;
+}
+#idinput
+{
+    width: 40px;
+}
+#menu
+{
+    background-image: linear-gradient(to right,darkgray,gray);
+}
+#menu>ul
+{
+    padding: 0;
+    margin: 0 0;
+}
+#menu>ul>li
+{
+    transition: background-color 1.5s;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+#menu>ul>li:hover
+{
+    background-color: gray;
+    transition: all 1.5s;
+}
+#container
+{
+    background-color: rgba(0,0,0,0.3);
+}
+.content
+{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #a3c2c2;
+    border-radius: 10px 10px;
+    text-align: justify;
+}
+#blabla
+{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 10px 10px;
+    background-color:#a3c2c2;
+}
+#footer
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right,darkgray,gray);
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px darkslategray;
+}
+.msg
+{
+    color: black;
+}
+.emsg>b
+{
+    color: orangered;
+}
